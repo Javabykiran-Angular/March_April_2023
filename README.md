@@ -11,7 +11,7 @@ sumitrao007.github.io
 Track By Functionality in Angular
 https://youtu.be/tWCLTqBabh8
 
-How INterceptors Work in Angular 
+How Interceptors Work in Angular 
 https://youtu.be/10aajKOBQ0s
 
 Check Out Important Shorts to upgrade your skills 
