@@ -8,6 +8,15 @@ github.com/ sumitrao007
 
 sumitrao007.github.io
 
+Track By Functionality in Angular
+https://youtu.be/tWCLTqBabh8
+
+How INterceptors Work in Angular 
+https://youtu.be/10aajKOBQ0s
+
+Check Out Important Shorts to upgrade your skills 
+https://www.youtube.com/playlist?list=PLa3i9wpSPojG2UoPIeVEnH-U3kEnuyDU1
+
 See The Spring Boot Series https://www.youtube.com/watch?v=1cecOdE2ZN8&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm
 
 https://www.youtube.com/watch?v=1cecOdE2ZN8&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=1
