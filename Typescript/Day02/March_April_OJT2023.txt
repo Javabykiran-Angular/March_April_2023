@@ -1,0 +1,48 @@
+Last Lecture
+1 Introduction
+
+Today Lecture
+1 S/W Setup
+2 Difference between Angular Js Vs Angular 2+
+3 What is Angular?
+what is angular 12 ?
+ - it is front end technology
+ - It is a freamwork
+ - Angular (google) , React js(facebook ), embber js,vue js , JSP 
+ - gmail,github,sbi mutual funds,ganna.com,walmart,flipkart 
+ 
+ sumit@thekiranacdemy.com
+ 9960556397 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
