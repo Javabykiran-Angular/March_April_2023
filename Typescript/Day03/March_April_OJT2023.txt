@@ -1,0 +1,55 @@
+Last Lecture
+1 S/W Setup
+2 Difference between Angular Js Vs Angular 2+
+	1 object based / oops based 
+	2 javascript / typescript 
+	3 memory is not effective / memory mang effective
+	4 performance decrease / increase the performance 
+	5 MVC / MVW 
+	6 mobile community is not support / mobile community is support
+3 What is Angular?
+what is angular 12 ?
+ - it is front end technology
+ - It is a freamwork
+ - Angular (google) , React js(facebook ), embber js,vue js , JSP 
+ - gmail,github,sbi mutual funds,ganna.com,walmart,flipkart 
+ 
+
+Today Lecture
+1 Why Angular?
+2 What is SPA 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
