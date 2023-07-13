@@ -1,0 +1,74 @@
+Last Lecture
+1 Why Angular?
+	- it is front end freamwork 
+	- it gives module,declarative templates,DI,Services,end to end tooling
+	- it MVW Client arch 
+	- it is universal freamwork
+	- it is high speed & performance 
+	- code splitting 
+	- It is SPA Application 
+	- It has in build Angular cli 
+	- cross platform progressive web apps 
+	
+2 What is SPA 
+	- 1 head & 1 body 
+	- no extra wait time & no page reload
+	- SPA environment
+3 What is Typescript
+	- it is oops orientated Lang 
+	- typescript = ecma script standard + ecma script version 6(js)+additional features 
+	
+4 Advantages & disadvantages of Typescript
+	advantages
+	 1 strong static time
+	 2 compile time error will find
+	 3 it supports oops concept
+	 disadvantages
+		1 browser does not understand 
+			tsc => compiler 
+		2 compilation is slow 
+5 Use of npm
+	npm -g install typescript 
+	
+
+Today Lecture
+1 Vscode Overview
+2 Simple Program
+3 variable
+4 data type
+5 literal
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
