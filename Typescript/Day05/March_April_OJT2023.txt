@@ -1,0 +1,74 @@
+Last Lecture
+1 Vscode Overview
+2 Simple Program
+	demo1.ts
+	console.log("Hello World");
+	console.log('Hello World');
+	console.log(`Hello World`);
+	
+	tsc demo1.ts & node demo1.js 
+	
+	
+3 variable
+	var a1,
+4 data type
+	number,string,boolean,any,void ,misec null & undefined
+	
+	var a:number=10;
+	var str!:string;
+	var myany:any;
+	myany=2.5;
+	console.log(myany);
+	myany='...'
+	console.log(myany);
+	myany=true;
+	console.log(myany);
+	
+	
+5 literal
+	var a:number | string;
+	var a:50|boolean;
+	var a:string|null;
+	
+
+Today Lecture
+1 type assertion
+2 operators
+3 control/sequential statement
+4 loop statement 
+5 var vs let vs const 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
