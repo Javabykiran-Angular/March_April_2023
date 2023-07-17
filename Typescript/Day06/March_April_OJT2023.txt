@@ -1,0 +1,66 @@
+Last Lecture
+1 type assertion
+	any/object/unknown
+	var a:any;
+	1 angle bracket
+		var temp=(<string>a);
+	2 as syntax
+		var temp=(a as string);
+2 operators
+	- airthamthic,logical,bitwise,relational,conditioanl,assignment
+	==,===(Strongly equality it checks value as well as data type ),ternary
+	condition?expression1:expression2,unary
+3 control/sequential statement
+	if,if-else,switch,break,continue
+		
+4 loop statement 
+	while,do-while,for,foreach
+		for(var i=0;i<4;i++){
+			...
+		}
+5 var vs let vs const
+	var => global scope
+	let => within the nearest block
+	const => global as well as local
+		const pi=3.14;
+
+Today Lecture
+1 Functions
+2 anonymous functions
+3 fat arrow/Arrow functions 
+4 optional parameter functions
+5 default parameter functions
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
