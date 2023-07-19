@@ -1,0 +1,72 @@
+Last Lecture
+1 basics of array
+	let a:number[]=[1,2,3];
+	let a:number[]=[];
+	let a=[2,3,4,5];
+	let a=[2.5,"sumit",true];
+	let a:any[]=[];
+	
+	console.log(a);
+	console.log(a.join(" ")
+	
+2 join method
+3 for each
+	a.forEach((myvalue,i)=>{
+		console.log(myvalue)
+	})
+4 rest parameter function
+	function display(str:string,...item:number[]){
+		console.log(item.join());
+	}
+	display("ff",10,20,30);
+	
+	
+5 push & pop method 
+	- LIFO 
+	let a:number[]=[];
+	a.push(40);
+	console.log(a)
+	a.push(10,20,30);
+	console.log(a);
+	let res=a.pop();
+
+Today Lecture
+1 splice
+2 slice
+3 map
+4 array destructor/dereference 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
