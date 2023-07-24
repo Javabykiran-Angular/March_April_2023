@@ -1,0 +1,93 @@
+Last Lecture
+1 Array Of Object 
+	let arrObj=[
+		{
+			id:4,
+			fname:"..",
+			country:{
+				cid:
+				cname:..
+			},
+			month:[""],
+			result:[
+				{
+					subj:..
+					marks:..
+				},
+				{
+					subj:..
+					marks:..
+				}
+			]
+			
+		},
+		{
+			id:4,
+			fname:".."
+		},
+		{
+			id:4,
+			fname:".."
+		}
+	]
+	
+	for(let i=0;i<arrObj.length;i++){
+	
+		console.log(arrObj[i].id
+				arrObj[i].country.cname
+				arrObj[i].month.join(" ")
+		)
+		
+		arrObj[i].result.foreach((item)=<{
+			console.log(item.subj
+						item.marks 
+			)
+		})
+		
+	
+	}
+	
+
+Today Lecture
+1 Additional features of Typescript
+2 Object,class,property and method 
+3 Access Specifier
+4 Constructor
+5 Access in same package (some part is pending )
+6 Access in different Package.(pending)
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
