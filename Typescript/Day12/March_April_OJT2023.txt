@@ -1,0 +1,77 @@
+Last Lecture
+1 Additional features of Typescript
+2 Object,class,property and method 
+	demo1.ts 
+	export class Myclass{
+		public id:number;
+		private fname:string;
+		...
+		
+		constructor(id:number,...){
+			this.id=id;
+			...
+		}
+		
+		display(){
+			console.log("ID "+this.id)
+		}
+		
+		
+	}
+	let obj=new Myclass(9,"Sumit",'..');
+	obj.display();
+	
+	demo2.ts 
+	import {Myclass} from './demo1';
+	
+	let obj=new Myclass(....);
+	obj.display();
+	
+3 Access Specifier
+4 Constructor
+5 Access in same package (some part is pending )
+6 Access in different Package.(pending)
+
+Today Lecture
+1 Access in same package (some part is pending )
+2 Access in different Package.(pending).
+3 inheritance
+4 method overriding
+5 interface
+6 composition/Aggregation/ has a relation/Association 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
