@@ -1,0 +1,136 @@
+Last Lecture
+1 Access in same package 
+	export function add(...){
+	return (a+b)
+	}
+	export const pi=3.14;
+	
+demo2.ts
+import {Myclass,add,pi} './demo1';
+....
+
+2 Access in different Package.
+	import {Myclass} from '../day12/demo1';
+	
+
+3 inheritance
+	export class Shape{
+		myarea(){
+		....
+		}
+	}
+	
+	...
+	export class Circle extends Shape{
+	radius:number;
+	area:number;
+		constructor(r:number){
+			super()
+			..
+		}
+		
+		override myarea():void{
+			this.area=3.14*this.radius*this.radius
+		}
+		...
+		
+	}
+4 method overriding
+
+5 interface
+	
+export interface Employee{
+		fname:string;
+		lname:string;
+		fullname?:string;
+		
+		display();
+		
+	}
+	
+
+export class EmployeeDetails implements Employee{
+		fname:string;
+		lname:string;
+		salary:number;
+		dept:Department;
+		
+		constructor(....,role:string){
+		....
+		this.dept=new Department(role);
+		}
+		
+		display(){
+			console.log(`
+			...
+			
+			Department :: ${this.dept.getRole()}
+			
+			`)
+		}
+		
+}
+
+let obj=new EmployeeDetails(...);
+obj.display();
+
+export class Department{
+	private role:string;
+	
+	constructor(...){
+	...
+	}
+	
+	//setter & getter
+	
+	getRole(){
+		return theis.role;
+	}
+	
+	setRole(role:string){
+		this.role=role;
+	}
+	
+}
+
+
+6 composition/Aggregation/ has a relation/Association
+
+Today Lecture
+1 Angular Setup  
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
