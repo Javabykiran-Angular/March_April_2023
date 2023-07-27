@@ -1,0 +1,90 @@
+Last Lecture
+1 Angular Setup 
+
+Today Lecture
+1 Overview Of Arch
+	- Angular is component orientated arch.
+	- What is component ?
+		- 1 view file => .html => 1 & only one view file 
+		- 2 component file => .ts => 1 & only one ts file 
+		- 3 Stylesheet file => .css => it has multiple css 
+		- 4 testing file => .spec.ts => 1 & only one view file 
+	- data binding
+		- component to view 
+		- it is one way direction binding 
+			1 string interpolation
+			2 property binding
+			3 style binding
+			4 class binding
+	- event binding
+		- view to component
+			1 click 
+			2 k/b event
+			3 mouse event 
+			4 custom event 
+	- directives
+		- u can change/manipulate/update the behaviour of ur DOM structure/view
+		  1 attribute 
+		  2 structural
+		  3 component 
+		  4 event directives
+	- App Module 
+		- It is collection of classes, method,services,component
+		- in angular appliaction 1 root module 
+		- one or more module is present 
+		1 component Declration
+			- to register a component 
+		2 import 
+			- to register a module
+		3 services
+			- services is simple class 
+			- we can write BL
+			- we use DI 
+		4 routing
+			- to navigate from one component another component
+			- u can send data to component
+	- Injector 
+		- u can inject 3rd party services
+		- u can inject inbuild angular services
+		 
+2 Application Flow	
+3 Create component manually
+4 Create component using CLI  
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
