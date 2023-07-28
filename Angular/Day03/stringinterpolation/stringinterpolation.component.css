@@ -1,0 +1,13 @@
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.myhead{
+    color: blue;
+    text-transform: uppercase;
+}
+
+#nameid{
+    color: red !important;
+}
