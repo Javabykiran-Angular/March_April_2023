@@ -1,0 +1,69 @@
+Last Lecture
+1 Data Binding
+	- data flow is component file to view file 
+	- It is also called one way direction / one way data binding
+			1 string interpolation
+			2 property binding
+			3 style binding
+			4 class binding
+			
+2 String Interpolation
+	<h1> {{name}}</h1>
+	<h1> {{"welcome "+name}}</h1>
+	<h1> {{num+num}}</h1>
+	<img src="{{imgurl}} ">
+	<h1> {{getName()}}</h1>
+	
+	
+	.ts file 
+	name:string='';
+	num:number=4;
+	imgurl="../../assets/bg4.jpg";
+
+	getName(){
+		return (this.name);
+	}
+
+Today Lecture
+1 Property Binding
+2 Difference between String interpolation Vs Property Binding
+4 Style binding
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
