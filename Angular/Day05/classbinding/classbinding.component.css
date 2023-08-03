@@ -1,0 +1,16 @@
+.success{
+    color: green;
+}
+
+.danger{
+    color: red;
+}
+.warning{
+    color: orange;
+}
+.special{
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
