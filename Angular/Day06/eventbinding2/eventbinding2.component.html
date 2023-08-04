@@ -1,0 +1,26 @@
+<p>eventbinding2 works!</p>
+
+<!-- $event 
+    - It is special variable given by angular 
+    - It is object 
+    - it gives current DOM Element information
+    - u can apply $event on any html tag
+    - Only u can access a data but u can't change/maniplate the data/its behaviour
+-->
+
+<button value="Doller event Occur" (click)="onClick($event)">Click</button>
+<hr>
+
+<!-- template ref variable 
+    - It gives dom element information
+    - u can access data as well as u can manipulate the baehavoiur of that dom element 
+    - u can apply any HTML tag 
+    - we have to use # notation to define a template ref variable
+-->
+
+<input type="text" #inputname placeholder="Enter the Name "><br><br>
+<button (click)="onSend(inputname)">Send</button>
+<hr>
+
+<input type="text" #inputname1 placeholder="Enter the Name "><br><br>
+<button (click)="onSend1(inputname1.value)">Send</button>
