@@ -1,0 +1,71 @@
+Last Lecture
+1 $event 
+	<button vlaue="..." (click)="onClick($event)">
+	.ts 
+	onClick(myevent:any){
+		...
+		console.log(myevent.target.value)
+	}
+2 template ref. variable
+	
+	<input #inputname ..>
+	<button (click)="onClick(inputname)">
+	
+	onClick(myname:any){
+		...
+		myname.value 
+		inputname.style.background='green';
+		inputname.style.color='white'
+	}
+	
+	<input #inputname1 ..>
+	<button (click)="onClick(inputname1.value)">
+	
+
+Today Lecture
+1 Real time Example
+2 change event 
+3 k/b Event
+	1 key up 
+	2 key down 
+4 event Filtering/ K/b Filtering
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

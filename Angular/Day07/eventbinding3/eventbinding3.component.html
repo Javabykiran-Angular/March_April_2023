@@ -1,0 +1,21 @@
+<p>eventbinding3 works!</p>
+
+    <input #num1 type="text" placeholder="Enter the Number1"><br><br>
+    <input #num2 type="text" placeholder="Enter the Number2"><br><br>
+    <button (click)="onAddition(num1.value,num2.value)">Addition</button><br><br>
+    <input type="text" [value]="result" placeholder="Result">
+    <hr>
+
+    <input type="text" #username placeholder="Enter the Name " (change)="onChange(username)">
+
+    <hr>
+
+    <input type="text" placeholder="Enter the name"
+    (keyup)="onKeyUp()"
+    >
+    <hr>
+    <input type="text" placeholder="Enter the name"
+    (keydown)="onKeyDown()"
+    >
+    <hr>
+    <input type="text" (keyup.enter)="onEnterPressed()" placeholder="Event Filtering ">
