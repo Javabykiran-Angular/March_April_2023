@@ -1,0 +1,82 @@
+Last Lecture
+1 Event binding without event handler
+	<button (click)="result=8+8">
+	{{result}}
+2 two way binding 
+	<input [(ngModal)]="name">
+	{{name}}
+	
+	.ts file 
+	name:string='';
+ 
+3 Directives
+	- u can update ur DOM behaviour dynamically with the help directive 
+	1 Attribute directive 
+		1 ngStyle 
+		2 ngClass
+		3 ngModal
+	2 structural directive
+		1 *ngIf => on basis of condition
+		2 *ngFor => iterate dynamically 
+		3 *ngSwitch => to execute a specific condition 
+	3 component directive
+	4 event directive
+4 if directives
+	<div *ngIf="rating<4;else elsepart">
+			...
+	</div>
+	<ng-template #elsepart>
+		...
+	<ng-template>
+	
+5 for directives
+	<ul>
+		<li *ngFor="let item of arrayname"> {{item}}</li>
+	</ul>
+
+Today Lecture
+1 for directives
+2 Mouse event 
+	1 mouseover
+	2 mouseout 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
