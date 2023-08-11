@@ -1,0 +1,110 @@
+Last Lecture
+1 Switch Directive
+	<input #colorname>
+		<button (click)="onClick(colorname.value)">
+		
+		<div [ngSwitch]="choice">
+			<div *ngSwitchCase="'red'"			
+				[style.background]="choice"
+			>
+			You colro name is {{choice}}</div>
+			....
+			<div *ngSwitchDefault
+				[ngStyle]="{
+				'background':choice===''?'black':'orange',
+				'color':choice===''?'white':'black'
+				}
+			>
+			....
+		
+		</div>
+
+
+.ts 
+
+	onClick(colorname:string){
+		this.choice=colorname.toLowercase().trim(;)
+	}
+
+
+Today Lecture
+1 Backend project Explaination
+	Two entity class 
+	1 employee
+		1 id => autoincrement=>primary
+		2 name => String
+		3 email => String => unique contraints 
+		4 mobileno => String
+		5 department => String
+		6 status => String (active/inactive/suspend)
+		7 createdDate => Date
+		8 createdBy => String
+		9 UpdatedDate => date
+		10 UpdatedBy => String
+		11 country  => one to one relationship
+		
+	2 country 
+		cid =>autoincrement=>primary
+		cname => string 
+	
+	Api Requirement=>
+	1 GetAllCountry => List of Country 
+	2 createCoutry  => String => country is created Successfully 
+	3 UpdateCoutry  => String => Country is updated
+	4 delete Couuntry => String => Country is deleted 
+	5 get country by id  => Country => Object 
+	6 GetAllEmployee  => List of Employee
+	7 CreateEmployee  => String => ...
+	8 UpdateEmployee  => String => ...
+	9 DeleteEmployee  => String => ...
+	10 get Employee by id  => Employee => Object
+	11 get Employee by status => List of Employee
+	
+
+2 Component Interaction
+	- we can send data(string/number/boolean/any/json/array/array of Object) from one component to another component
+	- parent-child relationship is required 
+3 @Input()=> to send data from parent to child 
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
