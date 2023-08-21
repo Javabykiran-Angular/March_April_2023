@@ -1,0 +1,82 @@
+Last Lecture
+1 Send data on Button click
+2 Send data from Child to parent=> @Output()
+	child.html
+	<button (click)="onSend()">
+	child.ts
+	
+	@Output()ChildstrEvent=new EventEmitter();
+	@Output() childArrEvent=new EventEmitter();
+	strdata:string='...'
+	arrobj=[
+		{
+		
+		}
+	]
+	
+	onSend(){
+		this.ChildstrEvent.emit(this.strdata);
+		this.childArrEvent.emit(this.arrobj);
+	}
+	
+	parent.html
+	
+	<h1> {{childStrdata}}</h1>
+	
+	<table>
+		...
+	<tbody>
+		<tr *ngFor="let item of childArrdata;index as i">
+			<td>{{item.name}}</td>
+	
+	<app-child2 (ChildstrEvent)="childStrdata=$event"
+				(childArrEvent)="childArrdata=$event"
+	>
+
+Today Lecture
+1 @ViewChild()
+	1 U can access parent view element of parent in component file directly
+	2 u can access child property or method in paraent component
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
