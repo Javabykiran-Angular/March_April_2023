@@ -1,0 +1,87 @@
+Last Lecture
+1 @ViewChild()
+	1 U can access parent view element of parent in component file directly
+		
+		<div #mydiv>
+		jhjj
+		</div>
+		
+		parent.ts
+		
+		class parentcomponent implements AfterViewInit{
+		
+		@ViewChild('mydiv') divacces!:ElementRef;
+		
+		ngAfterViewInit(){
+			console.log(divacces);
+			this.divacces.nativeElement.className='divclass';
+		}
+		
+		
+		
+	2 u can access child property or method in parent component
+	parent.ts
+		
+		@ViewChild(ChildComp) chldaccess!:ChildComp;
+		
+		onPropertyAccess(){
+			this.chldaccess.username='Sumit raokhande';
+		}
+		onMethod(){
+			this.chldaccess.onAlert();
+		}
+	
+	child.ts
+	username:string='....';
+	
+	onAlert(){
+		alert("Welcome "+this.username)
+	}
+
+	
+
+Today Lecture
+1 Pipe
+	- It transform ur data without changing its original value 
+2 Inbuild Pipe
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
