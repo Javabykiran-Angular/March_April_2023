@@ -1,0 +1,124 @@
+Last Lecture
+1 Custom Pipe 
+2 PipeTransform => Interface
+3 transform => Method 
+4 Pure Pipe & impure pipe 
+
+	@Pipe({
+		name:'Summary'
+	})
+	export class SummaryPipe implemnets PipeTransform{
+		
+			transform(value:any,start:number=0,end:number=25){
+				
+				let temp=(<string> value);
+				
+				return temp.sustring(start,end)+"...";
+			}
+	}
+	
+	.html
+	
+	<h1> {{strdeatils| Summary:0:45}}</h1>
+
+
+Today Lecture
+1 Service
+	- It is simple class 
+	- It is used to write a BL 
+	- It is provide isolation to ur component
+	- it is used for code resualbilty
+	- it is used for code maintability
+	- to connect ur backend server 
+2 Dependancy Injection
+3 HTTP 
+	- it is Stateless Protocol
+4 HTTP Methods 
+	1 get => get/fetch data from backend server 
+	2 post => to send a data from frontend server to backend server 
+	3 put => to update a particular data 
+	4 delete => to delete a particular data
+
+5 Http Request / Http Response 
+	
+ Http Request
+	It has 2 part 
+	1 Http header
+		- IP 
+		- Method name 
+		- date & time 
+		- content Type 
+			- image
+			- application/json
+			- file/pdf
+			- text/html
+		- Auth token 
+		- url 
+	
+	2 Http Body 
+		- Data 
+		 - xml data 
+		 - json data 
+		 - text/html 
+	
+	Http Response
+	It has 2 part 
+	1 Http header
+		- IP 
+		- Method name 
+		- date & time 
+		- content Type 
+			- image
+			- application/json
+			- file/pdf
+			- text/html
+		- Auth token 
+		- url 
+		- Status 
+			1 200 => Success, ok => 200-299
+			2 300 => Redirection => 300-399
+			3 400 => client side Resourse not .. => 400-499
+			4 500 => serve side => 500-599
+	2 Http Body 
+		- Data 
+		 - xml data 
+		 - json data 
+		 - text/html 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
