@@ -1,0 +1,99 @@
+Last Lecture
+1 put method
+	.ts 
+	onEdit(item:any){
+		this.id=item.id;
+		...
+	}
+	
+	.html
+	<input [(ngModel)]="id" readonly>
+	...
+	<button (click)="onupdate()">
+	
+	.ts file 
+	onupdate(){
+		let obj={
+			id:this.id,
+			title:this.title
+			..
+		}
+		
+		this.service.UpdateData(obj)
+		.subscribe((response)=>{
+			console.log(response)
+		})
+	}
+	
+	onDelete(id:any){
+		this.deletedata(id)
+		.subscribe((response)=>{
+			....
+		},(error)=>{
+			if(error.status>=400 || error.status<=499){
+				..
+			}else if(error.status>=500 || error.status<=599){
+			...
+			}else{
+				
+			}
+		})
+	}
+	
+	service.ts
+	UpdateData(obj:any){
+		return (this.http.put(`${this.url}/${obj.id}`,obj));
+	}
+	
+	deletedata(id:any){
+		return (this.http.delete(`${this.url}/${id}`))
+	}
+	
+2 delete method
+3 handle error 
+
+Today Lecture
+1 Routing
+	- navigate from one component to another component
+2 Routing Steps
+	1 Configure the route 
+	2 use <router-outlet> =>  component directive
+	3 establish the link/navigate between component
+3 routerLink
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
