@@ -1,0 +1,91 @@
+Last Lecture
+1 Routing
+	- navigate from one component to another component
+2 Routing Steps
+	1 Configure the route 
+		{
+			path:"",component:HomeComponent
+		},
+		{
+			path:"Page1",component:Page1Component
+		},
+		{
+			path:"Page2/:id",component:Page2Component
+		},
+		{
+			path:"**",component:NotFoundComponent
+		}
+		...
+	2 use <router-outlet> =>  component directive
+	app.component.html
+	<router-outlet>
+	3 establish the link/navigate between component
+	
+	home.html
+	<a routerLink="/Page1">Page1
+	<a [routerLink]="['/Page2',myid]">Page2
+	
+	home.ts
+	myid:number=9;
+	
+	page2.ts
+	myid:number=0;
+	constructor(private route:ActivtatedRoute){}
+	
+	GetDataFromUrl(){
+		this.route.ParamMap
+		.subscribe((param:any)=>{
+			this.myid=+param.get("id")
+		})
+	}
+	
+3 routerLink
+4 empty path
+5 wild cart operator
+6 send parameter
+
+Today's Lecture
+1 Send multiple parameter
+2 Query parameter
+3 use navigate method 
+	- u can use in ts file 
+	- on basis of condition u can navigate 
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
