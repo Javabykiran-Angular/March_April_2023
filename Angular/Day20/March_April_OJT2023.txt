@@ -1,0 +1,51 @@
+Last Lecture
+1 Send multiple parameter
+
+2 Query parameter
+3 use navigate method 
+	- u can use in ts file 
+	- on basis of condition u can navigate end parameter
+
+Today's Lecture
+1 Child Routes
+2 Lazy Loading
+	 - we have create a custom module/feature module
+	 - we have create routing file 
+3 Modify the Routing 
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
