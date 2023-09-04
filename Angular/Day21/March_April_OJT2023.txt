@@ -1,0 +1,76 @@
+Last Lecture
+1 Child Routes
+	{
+		path:"product",children:[
+			{
+				path:"",component:ProductComponent
+			},
+			{
+				path:"mobile",component:Mobile...
+			}
+		]
+	}
+	product.html
+		
+	<a routerLink="mobile">
+	...
+2 Lazy Loading
+	 - we have create a custom module/feature module
+	 - we have create routing file 
+	 ng g m user --routing 
+	 listuser,add,update,delete
+	 
+	 {
+		path:"",component:listuser
+	 },
+	 {
+		...
+	 }
+	 
+	 {
+		path:"user",loadchildern:()=>import("./user/user.module").then(m=>m.userModule)
+	 }
+	 
+3 Modify the Routing 
+
+Today's Lecture
+1 Send data Multiple component & manage its state
+2 Subject
+3 BehaviouralSubject
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
