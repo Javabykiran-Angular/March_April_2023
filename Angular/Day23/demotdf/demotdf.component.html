@@ -1,0 +1,56 @@
+<p>demotdf works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <form #f="ngForm" >
+                {{f.value | json}}
+                <div class="form-group">
+                    <label for="">Username</label>
+                    <input type="text" minlength="5"
+                    pattern="admin"
+                    class="form-control" 
+                    ngModel name="myusername" placeholder="Enter the Username" #username="ngModel" required>
+                    
+                    <div *ngIf="username.touched && !username.valid"
+                    class="alert alert-danger">** Please enter the username 
+                        <div *ngIf="username.errors?.minlength">** Please Enter the minimum  length of {{username.errors?.minlength.requiredLength}} charcter
+                         </div>
+
+                         <div *ngIf="username.errors?.pattern">** Please Enter the appropriate username 
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="">Comment::</label>
+                    <textarea ngModel class="form-control" name="comment" #comment="ngModel" cols="30" required  placeholder="Enter the comment "   rows="5">
+                    </textarea>
+
+                    <div *ngIf="comment.touched && comment.invalid"
+                    class="alert alert-danger">** Please enter the comment 
+
+                    </div>
+
+                </div>
+
+                
+                <div class="checkbox">
+                    <label for="check1">
+                      <input type="checkbox" id="check1"
+                      ngModel name="issubscribed"  
+                      #mail="ngModel" required> I Agree All the Terms & Conditions.
+                    </label> 
+                </div>
+
+                <br>
+
+                <button [disabled]="!f.valid" class="btn btn-outline-success">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
