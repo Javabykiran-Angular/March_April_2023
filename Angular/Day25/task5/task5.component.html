@@ -1,0 +1,29 @@
+<p>task5 works!</p>
+<div class="container">
+    <input #inputId class="form-control" type="number" placeholder="Enter the ID"> <br>
+    <input #inputname class="form-control" type="text" placeholder="Enter the name ">
+<br>
+    <input #inputsal type="number" class="form-control" placeholder="Enter the Salary "> <br>
+<button class="btn btn-success" (click)="onAdd(inputId.value,inputname.value,inputsal.value)" >ADD</button>
+</div>
+<hr>
+<div class="container">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>SR no</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of empData;index as i ">
+                <td> {{i+1}} </td>
+                <td> {{item.id}} </td>
+                <td> {{item.name}} </td>
+                <td> {{item.sal}} </td>
+                <td><button (click)="onRemove(i)" class="btn btn-danger">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
